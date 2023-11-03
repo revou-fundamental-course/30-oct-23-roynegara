@@ -1,0 +1,16 @@
+#header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+#logo {
+  margin-top: 0;
+  color: #0174be;
+}
+.navigation-bar {
+  display: flex;
+  gap: 10px;
+}
+
+.navigation-bar > a {
+  text-decoration: none;
+}
