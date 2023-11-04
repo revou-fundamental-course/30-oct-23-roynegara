@@ -14,3 +14,48 @@
 .navigation-bar > a {
   text-decoration: none;
 }
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+label {
+  margin-bottom: 4px;
+  font-size: small;
+  color: #0c356a;
+}
+
+input {
+  outline: none;
+  border: solid #ff5b22;
+  /* border: solid #eadbc8; */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+input:focus {
+  border: solid #64ccc5;
+}
+.button-section {
+  margin-top: 8px;
+}
+
+button {
+  background-color: #5180bd;
+  color: #fff;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #005b41;
+}
+button:active {
+  transform: translateY(4px);
+  background-color: #232d3f;
+}
